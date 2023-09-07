@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Estações do ano</h1>
+    </header>
+    <section>
+        <div>
+            Descubra a estação do ano
+            <p>Digite o nome ou número do mês:
+                <input type="text" name="txtano" id="txtano" >  
+                <input type="button" value="buscar" onclick="carregar()"> 
+            </p>
+        </div>
+        <div id="foto">
+            <img id="imagem" src="calendário.png" alt="calendário">
+        </div>
+        <div id= 'msg'>
+            <p>Aqui aparecerá a estação que você pesquisou.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Marcosoft</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
